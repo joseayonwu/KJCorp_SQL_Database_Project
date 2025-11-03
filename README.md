@@ -42,7 +42,7 @@ The schema includes ten normalized tables covering end-to-end retail operations.
 | **Payments** | Transactions and accounts receivable/payable |
 | **Employees** | Staff and internal roles |
 
-> Database fully adheres to **Third Normal Form (3NF)** to eliminate redundancy and improve query performance.
+Database fully adheres to **Third Normal Form (3NF)** to eliminate redundancy and improve query performance.
 
 ---
 
@@ -61,38 +61,6 @@ The schema includes ten normalized tables covering end-to-end retail operations.
 ## 4. How to Run  
 
 To create and populate the database locally using MySQL Workbench:  
-```sql
-SOURCE ./sql/kjcorp_schema_and_queries.sql;
-```
-This script:
-
-- Creates the database `KJCorpDB`  
-- Defines all tables, constraints, and relationships  
-- Inserts anonymized sample data  
-- Runs analytical queries for reporting and insights  
-
-After execution, refresh the schema in **MySQL Workbench** — all tables will be available and populated.
-
----
-
-## 5. Sample Analytical Queries
-
-```sql
-SOURCE ./sql/kjcorp_schema_and_queries.sql;
-```
-This script:
-
-- Creates the database `KJCorpDB`  
-- Defines all tables, constraints, and relationships  
-- Inserts anonymized sample data  
-- Runs analytical queries for reporting and insights  
-
-After execution, refresh the schema in **MySQL Workbench** — all tables will be available and populated.
-
----
-
-## 5. Sample Analytical Queries
-
 ```sql
 SOURCE ./sql/kjcorp_schema_and_queries.sql;
 ```
